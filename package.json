@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --fix --ext js,ts,tsx ./src"
+    "lint": "eslint --fix --ext js,ts,tsx ./src",
+    "style:check": "prettier --check 'src/**/*.ts' 'test/**/*.ts'",
+    "style:fix": "prettier --write 'src/**/*.tsx'"
   },
   "dependencies": {
     "@next/font": "13.1.6",
