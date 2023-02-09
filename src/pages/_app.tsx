@@ -1,7 +1,6 @@
 import { AppProps } from 'next/app';
 import '../styles/globals.css';
 
-
 type NextAppProp = AppProps & {
     Component: AppProps['Component'] & { requireAuth: boolean };
 };
