@@ -1238,6 +1238,11 @@ module.exports = {
     content: ['./src/**/*.{js,ts,jsx,tsx}'],
     theme: {
         extend: {
+            fontFamily: {
+                poppins: [
+                    'Poppins'
+                ],
+            },
             colors: {
                 primary: {
                     100: '#DBE4EE',
